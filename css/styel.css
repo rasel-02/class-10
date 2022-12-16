@@ -1,0 +1,343 @@
+/* comon css start  */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.continar{
+    width: 1170px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+     flex-wrap: wrap;
+}
+ /* conon css end  */
+
+
+ /* Nav Section Css Start */
+ 
+ nav{
+    background-color: #02918b;
+    text-align: justify;
+ }
+ nav div.row{
+    align-items: center;
+ }
+ nav .logo{
+    width: 15%;
+ }
+ nav .menu{
+    width: 75%;
+ }
+ nav .menu ul{
+     justify-content: flex-end; 
+ }
+ nav .menu ul a{
+    font-size: 12px;
+    font-weight: 800;
+    color: #ffff;
+    text-transform: uppercase;
+    padding: 26px 25px;
+    display: inline-block;
+    border-radius: 20%;
+    transition: 1s;
+ }
+ nav .menu ul a:hover{
+    color: black;
+    background-color:#cfc91d ;
+    border-radius: 0%;
+ }
+ /* nav section css End  */
+
+  #banner{
+    background-image: url(../img/benar.jpg);
+    height:728px ;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    padding-top: 210px;
+ }
+ #banner::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.8;
+ }
+ #banner .continar{
+    margin: auto;
+ }
+ #banner .continar h4{
+    font-size: 30px;
+    font-weight: 400;
+    color: #ffff;
+ }
+ #banner .continar h1{
+    font-size: 68px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 18px;
+    color: #ffff;
+ }
+ #banner .continar p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffff;
+ }
+ #banner .continar img{
+    display: block;
+    margin: 52px auto;
+ } 
+ #banner .continar a{
+    font-size: 14px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #0b1016;
+    background-color: #cfc91d;
+    padding: 19px 42px;
+    letter-spacing: 3px;
+ }
+ /* banner section css End  */
+
+
+/* about section css start  */
+
+#about{
+    text-align: center;
+    padding-bottom: 155px;
+ }
+ #about .rasel{
+    margin: 98px 84px;
+ }
+ #about .rasel h2{
+    font-size: 46px;
+    font-weight: 800;
+    color:#02918c;
+    text-transform: uppercase;
+    padding: 32px;
+ }
+ #about .rasel.chap{
+    padding-bottom: 36px;
+ }
+ #about .rasel p{
+    width: 880px;
+    margin: auto;
+    color: #7e8287;
+    font-size: 16px;
+ }
+ #about .about_box{
+ width: 25%;
+ border-right: 2px solid #7e8287;;
+ padding:50px 60px;
+ }
+ #about .about_box:last-child{
+    border: none;
+ }
+ #about .about_box h5{
+    font-size: 16px;
+    font-weight: 800;
+    color: #7e8287;
+    margin: 28px 33px;
+ }
+ #about .about_box p{
+    font-size: 11px;
+    color: #7e8287;
+}
+/* about section css end  */
+
+/* servies section css start  */
+#servies{
+    background-image: url(../img/MYFOLIO.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#servies .rasel{
+   width: 50%;
+   padding: 75px;
+   padding-left: 0px;
+}
+ #servies .servies_item{
+    padding-bottom: 74px;
+} 
+#servies .servies_item h2{
+    font-size: 46px;
+    font-weight: 800;
+    color: #02918c;
+    padding-bottom: 42px;
+}
+#servies .servies_item p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #7e8287;
+}
+#servies .rasel .servies_box{
+    width: 50%;
+}
+.servies_box {
+    padding-top: 28px;
+    padding-right: 88px;
+    padding-bottom: 28px;
+}
+.servies_box h5 {
+    font-size: 16px;
+    font-weight: 800;
+    color: #7e8287;
+}
+.servies_box p{
+    font-size: 11px;
+    font-weight: 400;
+    color: #7e8287;
+} 
+/* servies section css End   */
+
+/* work section css start  */
+#work .work_item{
+    text-align: center;
+    padding: 109px;
+}
+#work .work_item h3{
+    font-size: 46px;
+    font-weight: 800;
+    color: #02918c;
+    padding-bottom: 34px;
+}
+#work .work_item  .chep{
+    padding-bottom: 31px;
+}
+#work .work_item p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #7e8287;
+}
+#work .work_box{
+    width: 25%;
+    position: relative;
+}
+#work .work_box img{
+    width: 100%;
+    display: block;
+}
+#work .work_box .hover h5{
+    font-size: 16px;
+    font-weight: 800;
+    color: #ffff;
+}
+#work .work_box .hover p{
+    font-size: 13px;
+    font-weight: 400;
+    color: #ffff;
+}
+#work .work_box .hover{
+    position: absolute;
+    left: 28px;
+    top: 20px;
+    right: 28px;
+    bottom: 20px;
+    padding: 57px 38px;
+    text-align: center;
+    opacity: 0;
+    visibility: hidden;
+    transition:1s ;
+    transform: scale(0);
+    /* border-radius: 50%;  */
+   /* transform-origin: top left;  */
+   /* transform: rotate(45deg);  */
+    background-color:rgba(2, 145, 139,0.75);
+}
+#work .work_box:hover .hover{
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+    /* border-radius: 0%;  */
+}
+/* work section css End */
+
+/* contact section css start  */
+#contact .contact_item{
+    text-align: center;
+    padding: 100px 74px;
+}
+#contact .contact_item h2{
+    font-size: 46px;
+    font-weight: 800;
+    color: #02918c;
+}
+#contact .contact_item .chep{
+    font-size: 16px;
+    font-weight: 400;
+    color: #7e8287;
+    padding: 38px 34px;
+}
+#contact .contact_item p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #7e8287;
+}
+#contact .contact_from{
+    background-color: #0a0a0b;
+    padding: 73px;
+}
+#contact .contact_from input,
+#contact .contact_from textarea{
+    display: block;
+    margin: auto;
+    background: none;
+    padding: 18px;
+    margin-bottom: 50px;
+    border: none;
+    border-bottom: 1px solid #7e8287 ;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    width: 640px;
+    color: #7e8287;
+
+}
+#contact .contact_from input.rasel,
+#contact .contact_from textarea{
+    width: 920px;
+}
+#contact .contact_from textarea{
+    resize: none;
+}
+#contact .contact_from input::placeholder{
+    text-transform: uppercase;
+}
+#contact .contact_from button{
+    font-size: 14px;
+    font-weight: 800;
+    color: #0b1016;
+    text-transform: uppercase;
+    padding:19px 68px ;
+    background-color: #cfc91d;
+   display: block;
+   margin: auto;
+}
+/* contact section css End  */
+
+#myfoliyo .logo{
+    display: block;
+    margin: auto;
+}
+#myfoliyo{
+    background-color:#000000;
+   
+}
